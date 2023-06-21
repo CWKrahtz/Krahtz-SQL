@@ -23,7 +23,7 @@
                     echo '<input type="text" class="form-control" name="gender" value="'.$row['gender'].'">';
                     echo '</div>';
                     echo '<div class="form-group">';
-                    echo '<label>Emal</label>';
+                    echo '<label>Email</label>';
                     echo '<input type="email" class="form-control" name="email" value="'.$row['email'].'">';
                     echo '</div>';
                     echo '<div class="form-group">';
@@ -36,7 +36,7 @@
                     echo '<input type="text" class="form-control" name="specialisation" value="'.$row['specialisation'].'">';
                     echo '</div>';
                     echo '<div class="form-group">';
-                    echo '<label>room</label>';
+                    echo '<label>Room</label>';
                     echo '<input type="int" class="form-control" name="room_id" value="'.$row['room_id'].'">';
                     echo '</div>';
                     echo '<label>Password</label>';
@@ -49,7 +49,8 @@
             echo '</div>';
         }else{
             echo '<div class="card" style="width: 50%; margin-left: auto; margin-right: auto; margin-bottom: 5%;">'; //background-image: url(../images/FloppyDisc.jpeg); object-fit: cover;
-                echo '<div class="card-body">';
+                echo '<div class="card-body" style="text-align: center;">';
+                    echo '<img src="../images/' .$row["profile_img"]. '" style="width:100px;  height: 100px; border-radius: 50%;"><br><hr>';
                     echo '<h5 class="card-title">' .$row["name_surename"]. '</h5>';
                     echo '<p class="card-text">' .$row["email"]. '</p>';
                     echo '<p class="card-text">' .$row["phone_number"]. '</p>';

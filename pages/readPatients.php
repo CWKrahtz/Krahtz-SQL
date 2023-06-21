@@ -46,8 +46,9 @@ error_reporting(0);
             echo '</div>';
         }else{
             echo '<div class="card" style="width: 50%; margin-left: auto; margin-right: auto; margin-bottom: 5%;">'; //background-image: url(../images/FloppyDisc.jpeg); object-fit: cover;
-                echo '<div class="card-body">';
-                    echo '<h5 class="card-title">' .$row["name_surename"]. '</h5>';
+                echo '<div class="card-body" style="text-align: center;">';
+                    echo '<img src="../images/' .$row["profile_img"]. '" style="width:100px;  height: 100px; border-radius: 50%;"><br><hr>';
+                    echo '<h5 class="card-title" style="margin-left:auto; margin-right:auto;">' .$row["name_surename"]. '</h5>';
                     echo '<p class="card-text">' .$row["email"]. '</p>';
                     echo '<p class="card-text">' .$row["phone_number"]. '</p>';
                     echo '<a class="btn btn-primary" href="patients.php?id=' . $row['id'] . '" role="button" style="margin: 1%">Update</a>';//EDIT

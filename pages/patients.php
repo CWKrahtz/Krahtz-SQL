@@ -1,3 +1,57 @@
+<?php
+// error_reporting(0)
+
+    require 'db.php';
+    if (isset($_POST["submit"])){
+        $name = $_POST['name_surename'];
+        $age = $_POST['age'];
+        $gender = $_POST['gender'];
+        $email = $_POST['email'];
+        $password = $_POST['password'];
+        $phone = $_POST['phone_number'];
+        $medical = $_POST['medical_aid_number'];
+
+        if ($_FILES["image"]["error"] === 4) {
+            echo "<script> alert('Image Does Not Exist'); </script>";
+        } 
+        
+        else{
+            $fileName = $_FILES["image"]["name"];
+            $fileSize = $_FILES["image"]["size"];
+            $tmpName = $_FILES["image"]["tmp_name"];
+
+            $validImageExtension = ['jpg', 'jpeg', 'png'];
+            $imageExtension = explode('.', $fileName);
+            $imageExtension = strtolower(end($imageExtension));
+            if ( !in_array($imageExtension, $validImageExtension) ){
+                echo
+                "
+                <script>
+                  alert('Invalid Image Extension');
+                </script>
+                ";
+              }
+              else  if($fileSize > 1000000){
+                echo "<script> alert('Image Size To Large'); </script>";
+            }
+            else {
+                $newImageName = uniqid();
+                $newImageName .= '.' . $imageExtension;
+
+                move_uploaded_file($tmpName, '../images/'. $newImageName);
+                $sql = "INSERT INTO patients (name_surename, age, gender, email, password, phone_number, medical_aid_number, profile_img) VALUES ('$name', '$age', '$gender', '$email', '$password', '$phone', '$medical', '$newImageName')";
+                mysqli_query($conn, $sql);
+                echo "<script> alert('Successfully Added'); </script>";
+            }
+        }
+        // $conn->query($sql);
+        // $conn->close();
+
+        // header("location: patients.php");
+    }
+    
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,7 +123,7 @@
             <div class="card" style="width: 50%; margin-left: auto; margin-right: auto; margin-bottom: 5%;">
                 <div class="card-body">
                     <h4> Add new Patient </h4>
-                    <form class="form-inline m-2" action="createPatients.php" method="POST">
+                    <form  class="form-inline m-2" action="" method="POST" autocomplete="off" enctype="multipart/form-data"><!-- action="createPatients.php" -->
                         <label for="name">Name and Surname</label>
                         <input type="text" class="form-control m-2" id="name_surename" name="name_surename">
 
@@ -90,8 +144,12 @@
 
                         <label for="password">Password</label>
                         <input type="password" class="form-control m-2" id="password" name="password">
+
+                        <label for="image">Upload Image</label><br>
+                        <input type="file" name="image" id = "image" accept=".jpg, .jpeg, .png" value=""><br><br>
                         
-                        <button type="submit" class="btn btn-primary">Add</button>
+                        <input type="submit" name="submit" class="btn btn-primary" value="Add">
+                        <!-- <button type="submit" name="upload" class="btn btn-primary">Add</button> -->
                     </form>
                 </div>
             </div>

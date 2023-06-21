@@ -79,7 +79,7 @@
                         <label for="date">Date</label>
                         <input type="date" class="form-control m-2" id="Date" name="Date">
                         
-                        <button type="submit" class="btn btn-primary">Add</button>
+                        <button type="submit" name="upload" class="btn btn-primary">Add</button>
                     </form>
                 </div>
             </div>

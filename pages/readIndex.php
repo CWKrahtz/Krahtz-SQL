@@ -7,7 +7,7 @@ error_reporting(0);
     $result = $conn->query($sql);
 
     while($row = $result->fetch_assoc()) {
-        echo "Hello";
+        // echo "Hello";
         $patientID = $row['patient_id'];
         $sql2 = "SELECT name_surename FROM patients WHERE id = $patientID";
 
@@ -25,6 +25,11 @@ error_reporting(0);
         if ($row['id'] == $_GET['id']){
             echo '<form class="form-inline m-2" action="pages/updateIndex.php" method="POST">';
             echo '<td><input type="int" class="form-control" name="patient_id" value="'.$columnValue.'"></td>';
+            // echo '<td>
+            //         <select>
+            //             <input type="int" class="form-control" name="patient_id" value="'.$columnValue.'">
+            //         </select>
+            //     </td>';
             // get value from dropdown
             echo '<td><input type="int" class="form-control" name="receptionist_id" value="'.$row['receptionist_id'].'"></td>';
             echo '<td><input type="int" class="form-control" name="doctor_id" value="'.$row['doctor_id'].'"></td>';

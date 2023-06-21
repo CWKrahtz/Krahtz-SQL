@@ -85,11 +85,17 @@
                         <label for="medical_aid">Specialisation</label>
                         <input type="text" class="form-control m-2" id="specialisation" name="specialisation">
 
-                        <label for="medical_aid">Room Id</label>
+                        <label for="room_id">Room Id</label>
                         <input type="text" class="form-control m-2" id="room_id" name="room_id">
 
                         <label for="password">Password</label>
                         <input type="password" class="form-control m-2" id="password" name="password">
+
+                        <input type="hidden" name="size" value="1000000">
+
+                        <label for="image">Upload Image</label><br>
+                        <input type="file" name="image"><br><br>
+
                         
                         <button type="submit" class="btn btn-primary">Add</button>
                     </form>
