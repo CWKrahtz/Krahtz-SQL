@@ -1,4 +1,9 @@
+<?php
+session_start();
 
+if (isset($_SESSION['id']) && isset($_SESSION['name_surename'])) {
+
+?>
 <?php
 error_reporting(0);
 
@@ -45,10 +50,6 @@ error_reporting(0);
                 echo "<script> alert('Successfully Added'); </script>";
             }
         }
-        // $conn->query($sql);
-        // $conn->close();
-
-        // header("location: patients.php");
     }
     
 ?>
@@ -72,13 +73,13 @@ error_reporting(0);
         <!-- Collapsible wrapper -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Navbar brand -->
-            <a class="navbar-brand mt-2 mt-lg-0" href="#">
+            <a class="navbar-brand mt-2 mt-lg-0" href="../home.php">
                 <img src="../images/FloppyDisc.jpeg" height="50" width="50" style="object-fit: cover;" alt="krahtz Project" loading="lazy"/>
             </a>
             <!-- Left links -->
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="../index.php">Appointments</a>
+                    <a class="nav-link" href="../home.php">Appointments</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="patients.php">Patients</a>
@@ -93,10 +94,13 @@ error_reporting(0);
         <!-- Right elements -->
         <div class="d-flex align-items-center">
             <!-- Avatar -->
-            <div class="dropdown">
-                <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false" >
-                    <img src="#" class="rounded-circle" height="25" alt="Name / Image" loading="lazy"/>
-                </a>
+            <div class="container m-2" style="width: auto;">
+                <!-- Log out section - Update all relevant information -->
+                <h1 id="User"><?php echo $_SESSION['name_surename']; ?></h1>
+            </div>
+            <div class="container m-2" style="width: auto;">
+                <!-- Log out section - Update all relevant information -->
+                <a class="btn btn-primary" href="../logout.php">LOGOUT</a>
             </div>
         </div>
         <!-- Right elements -->
@@ -126,28 +130,28 @@ error_reporting(0);
                     <h4> Add new Patient </h4>
                     <form  class="form-inline m-2" action="" method="POST" autocomplete="off" enctype="multipart/form-data"><!-- action="createPatients.php" -->
                         <label for="name">Name and Surname</label>
-                        <input type="text" class="form-control m-2" id="name_surename" name="name_surename">
+                        <input type="text" class="form-control m-2" id="name_surename" name="name_surename" required="required">
 
                         <label for="age">Age</label>
-                        <input type="number" class="form-control m-2" id="age" name="age">
+                        <input type="number" class="form-control m-2" id="age" name="age" required="required">
 
                         <label for="gender">Gender</label>
-                        <input type="text" class="form-control m-2" id="gender" name="gender">
+                        <input type="text" class="form-control m-2" id="gender" name="gender" required="required">
 
                         <label for="email">Email</label>
-                        <input type="email" class="form-control m-2" id="email" name="email">
+                        <input type="email" class="form-control m-2" id="email" name="email" required="required">
 
                         <label for="phone">Phone Number</label>
-                        <input type="text" class="form-control m-2" id="phone_number" name="phone_number">
+                        <input type="text" class="form-control m-2" id="phone_number" name="phone_number" required="required">
 
                         <label for="medical_aid">Medical Aid Number</label>
-                        <input type="text" class="form-control m-2" id="medical_aid_number" name="medical_aid_number">
+                        <input type="text" class="form-control m-2" id="medical_aid_number" name="medical_aid_number" required="required">
 
                         <label for="password">Password</label>
-                        <input type="password" class="form-control m-2" id="password" name="password">
+                        <input type="password" class="form-control m-2" id="password" name="password" required="required">
 
                         <label for="image">Upload Image</label><br>
-                        <input type="file" name="image" id = "image" accept=".jpg, .jpeg, .png" value=""><br><br>
+                        <input type="file" name="image" id = "image" accept=".jpg, .jpeg, .png" value="" required="required"><br><br>
                         
                         <input type="submit" name="submit" class="btn btn-primary" value="Add">
                         <!-- <button type="submit" name="upload" class="btn btn-primary">Add</button> -->
@@ -160,3 +164,10 @@ error_reporting(0);
     <!-- Body -->
 </body>
 </html>
+
+<?php
+}else {
+    header("Location: index.php");
+    exit();
+}
+?>

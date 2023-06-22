@@ -94,7 +94,7 @@ error_reporting(0);
             echo "<td value='" .$row['receptionist_id']. "'>" . $columnValue3 . "</td>";
             echo "<td value='" .$row['doctor_id']. "'>" . $columnValue2 . "</td>";
             echo "<td>" . $row['Date'] . "</td>";
-            echo '<td><a class="btn btn-primary" href="index.php?id=' . $row['id'] . '" role="button">Update</a></td>';//EDIT
+            echo '<td><a class="btn btn-primary" href="home.php?id=' . $row['id'] . '" role="button">Update</a></td>';//EDIT
         }
         
         echo '<td><a class="btn btn-danger" href="pages/deleteIndex.php?id=' . $row['id'] . '" role="button">Delete</a></td>';//UPDATE
