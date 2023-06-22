@@ -60,7 +60,7 @@ error_reporting(0);
                     while($row2 = $result2->fetch_assoc()) {
                         echo '<option value="' .$row2["id"]. '">' . $row2["name_surename"] . '</option>';
                     }
-            echo '</td>';
+            echo '</select></td>';
             //Receptionist
             // echo '<td><input type="int" class="form-control" name="receptionist_id" value="'.$columnValue3.'"></td>';
             echo '<td>
@@ -71,7 +71,7 @@ error_reporting(0);
                     while($row4 = $result4->fetch_assoc()) {
                         echo '<option value="' .$row4["id"]. '">' . $row4["name_surename"] . '</option>';
                     }
-            echo '</td>';
+            echo '</select></td>';
             //Doctor
             // echo '<td><input type="int" class="form-control" name="doctor_id" value="'.$columnValue2.'"></td>';
             echo '<td>
@@ -82,7 +82,7 @@ error_reporting(0);
                     while($row3 = $result3->fetch_assoc()) {
                         echo '<option value="' .$row3["id"]. '">' . $row3["name_surename"] . '</option>';
                     }
-            echo '</td>';
+            echo '</select></td>';
             //Date
             echo '<td><input type="date" class="form-control" name="Date" value="'.$row['Date'].'"></td>';
             echo '<td><button type="submit" name="submit" class="btn btn-primary">Save</button></td>';

@@ -10,7 +10,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css" rel="stylesheet"/>
 </head>
 <body>
-<script> alert('Successfully Added'); </script>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <!-- Container wrapper -->
@@ -77,8 +76,8 @@
             <div class="card" style="width: 50%; margin-left: auto; margin-right: auto; margin-bottom: 5%;">
                 <div class="card-body">
                     <h4> New Appointment </h4>
-                    <form class="form-inline m-2" action="pages/createIndex.php" method="POST">
-                        <label for="name">Patient</label>
+                    <?php include 'pages/formIndex.php'; ?>
+                        <!-- <label for="name">Patient</label>
                         <input type="number" class="form-control m-2" id="patient_id" name="patient_id">
 
                         <label for="age">Receptionist</label>
@@ -90,8 +89,8 @@
                         <label for="date">Date</label>
                         <input type="date" class="form-control m-2" id="Date" name="Date">
                         
-                        <button type="submit" name="upload" class="btn btn-primary">Add</button>
-                    </form>
+                        <button type="submit" name="upload" class="btn btn-primary">Add</button> -->
+                    
                 </div>
             </div>
         </div> 
