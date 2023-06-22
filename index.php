@@ -10,6 +10,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css" rel="stylesheet"/>
 </head>
 <body>
+<script> alert('Successfully Added'); </script>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <!-- Container wrapper -->
