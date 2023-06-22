@@ -11,7 +11,7 @@
     $specialisation = $_POST['specialisation'];
     $room_id = $_POST['room_id'];
 
-    $sql = "INSERT INTO patients (name_surename, age, gender, email, password, phone_number, specialisation, room_id) VALUES ('$name', '$age', '$gender', '$email', '$password', '$phone', '$specialisation', '$room_id')";
+    $sql = "INSERT INTO doctors (name_surename, age, gender, email, password, phone_number, specialisation, room_id) VALUES ('$name', '$age', '$gender', '$email', '$password', '$phone', '$specialisation', '$room_id')";
 
     $conn->query($sql);
     $conn->close();

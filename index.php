@@ -53,9 +53,19 @@
     <!-- Body -->
     <div class="container">
         <h1 style="margin-top:3%; margin-bottom:2%;">Upcoming Appointment</h1>
-        <table class="table">
+        <table class="table" >
+            <!-- <thead> -->
+                <tr>
+                    <th>Patient</th>
+                    <th>Recetpionist</th>
+                    <th>Doctor</th>
+                    <th>Date</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            <!-- </thead> -->
             <tbody>
-            <?php include 'pages/readIndex.php'; ?>
+                <?php include 'pages/readIndex.php'; ?>
             </tbody>
         </table>
     </div>

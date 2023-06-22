@@ -1,5 +1,6 @@
+
 <?php
-// error_reporting(0)
+error_reporting(0);
 
     require 'db.php';
     if (isset($_POST["submit"])){
