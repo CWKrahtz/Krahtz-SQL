@@ -6,7 +6,6 @@
  In the past, we looked at APIs that ultimately access a repository of data stored in a database. We looked at the most common form of database structure, Structured QWuery Language (SQL).
  For the project, I created my first persistent data system by developing a management portal for a medical practitioner's office.
 </p>
-### Build With
 <p>
  This project was built with Visual Studio Code with the help of XAMPP for managing my database.
 </p>
