@@ -32,16 +32,16 @@
 <h3>Ideation</h3>
 <p>For my inspiration I looked at Mediclinic and the way they display information about doctors and how they are displayed. Click <a href="https://www.mediclinic.co.za/en/corporate/find-a-doctor.html">here</a> to view.</p>
 <h3>Wireframes</h3>
-<img src="images/wireframes/Wireframe - Register.png" width="50%">
-<img src="images/wireframes/Wireframe - Register-1.png" width="50%">
-<img src="images/wireframes/Wireframe - Login.png" width="50%">
-<img src="images/wireframes/Wireframe - Login-1.png" width="50%">
-<img src="images/wireframes/Wireframe - Doctors-1.png" width="50%">
-<img src="images/wireframes/Wireframe - Doctors-3.png" width="50%">
-<img src="images/wireframes/Wireframe - Patient.png" width="50%">
-<img src="images/wireframes/Wireframe - Patient-1.png" width="50%">
-<img src="images/wireframes/Wireframe - Doctors.png" width="50%">
-<img src="images/wireframes/Wireframe - Doctors-2.png" width="50%">
+<img src="images/wireframes/Wireframe - Register.png" width="50%" margin-left="50%" margin-right="50%">
+<img src="images/wireframes/Wireframe - Register-1.png" width="50%" margin-left="50%" margin-right="50%">
+<img src="images/wireframes/Wireframe - Login.png" width="50%" margin-left="50%" margin-right="50%">
+<img src="images/wireframes/Wireframe - Login-1.png" width="50%" margin-left="50%" margin-right="50%">
+<img src="images/wireframes/Wireframe - Doctors-1.png" width="50%" margin-left="50%" margin-right="50%">
+<img src="images/wireframes/Wireframe - Doctors-3.png" width="50%" margin-left="50%" margin-right="50%">
+<img src="images/wireframes/Wireframe - Patient.png" width="50%" margin-left="50%" margin-right="50%">
+<img src="images/wireframes/Wireframe - Patient-1.png" width="50%" margin-left="50%" margin-right="50%">
+<img src="images/wireframes/Wireframe - Doctors.png" width="50%" margin-left="50%" margin-right="50%">
+<img src="images/wireframes/Wireframe - Doctors-2.png" width="50%" margin-left="50%" margin-right="50%">
 
 ## Development Process
 ### Implementation Process
@@ -73,7 +73,7 @@ Now that the CRUD functionality works I worked on the appointment page to displa
 <img src="images/mockups/Mockup_3.png">
 
 ### Video Demonstration
-
+<p>You can view te demonstration video <a href="https://drive.google.com/file/d/1lEulpf_K2HweDqd7slhcVOExBGD-GI_S/view?usp=sharing">here</a></p>
 
 ## Conclution
 <p>In this project I have learned a lot wat you can accomplish with the use of PHP and My SQL and how it can make the work load a lot less even though we had to think a bit more on ways to solve our errors.</p>
