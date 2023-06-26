@@ -32,23 +32,23 @@
 <h3>Ideation</h3>
 <p>For my inspiration I looked at Mediclinic and the way they display information about doctors and how they are displayed. Click <a href="https://www.mediclinic.co.za/en/corporate/find-a-doctor.html">here</a> to view.</p>
 <h3>Wireframes</h3>
-<img src="images/wireframes/Wireframe - Register.png" width="50%" margin-left="50%" margin-right="50%">
-<img src="images/wireframes/Wireframe - Register-1.png" width="50%" margin-left="50%" margin-right="50%">
-<img src="images/wireframes/Wireframe - Login.png" width="50%" margin-left="50%" margin-right="50%">
-<img src="images/wireframes/Wireframe - Login-1.png" width="50%" margin-left="50%" margin-right="50%">
-<img src="images/wireframes/Wireframe - Doctors-1.png" width="50%" margin-left="50%" margin-right="50%">
-<img src="images/wireframes/Wireframe - Doctors-3.png" width="50%" margin-left="50%" margin-right="50%">
-<img src="images/wireframes/Wireframe - Patient.png" width="50%" margin-left="50%" margin-right="50%">
-<img src="images/wireframes/Wireframe - Patient-1.png" width="50%" margin-left="50%" margin-right="50%">
-<img src="images/wireframes/Wireframe - Doctors.png" width="50%" margin-left="50%" margin-right="50%">
-<img src="images/wireframes/Wireframe - Doctors-2.png" width="50%" margin-left="50%" margin-right="50%">
+<img src="images/wireframes/Wireframe - Register.png">
+<img src="images/wireframes/Wireframe - Register-1.png">
+<img src="images/wireframes/Wireframe - Login.png">
+<img src="images/wireframes/Wireframe - Login-1.png">
+<img src="images/wireframes/Wireframe - Doctors-1.png">
+<img src="images/wireframes/Wireframe - Doctors-3.png">
+<img src="images/wireframes/Wireframe - Patient.png">
+<img src="images/wireframes/Wireframe - Patient-1.png">
+<img src="images/wireframes/Wireframe - Doctors.png">
+<img src="images/wireframes/Wireframe - Doctors-2.png">
 
 ## Development Process
 ### Implementation Process
 <p>I started off with setting up my database and adding information I will be required to use in the project. After the database was setup and ready to use I started off with creating a single page where i will be able to display on the page and then I moved it to be displayed as a card. When the read worked for the page I made duplicated of the page and edited it to suite my needs and to display the corresponding data on the pages.
 </p>
 <p>
-NOw that all the pages can read the data from the database I add the code and functionality to create a new user and when that wored I implemented the delete functionality to work with the palceholder data I created with the add functionality. Now that the delete and add worked I added the update functionality till it worked and with that working I copied the code I used for the add, delete, and update and implemented it to work with the other pages and their relevant information.
+Now that all the pages can read the data from the database I add the code and functionality to create a new user and when that wored I implemented the delete functionality to work with the palceholder data I created with the add functionality. Now that the delete and add worked I added the update functionality till it worked and with that working I copied the code I used for the add, delete, and update and implemented it to work with the other pages and their relevant information.
 </p>
 <p>
 Now that the CRUD functionality works I worked on the appointment page to display the relevant names that is linked in the appointments table and made it that you can see the name of the corresponding ID that is saved in database. When you update a appointment you will be given the names of all the doctor and the patient as well as the receptionist. When the information on the appointment page worked and displayed as I wanted it to. The login page I created last of everything and just before that I made the functionality work with help to add and update an image in the database and to display the correct image with the corresponding data.</p>
