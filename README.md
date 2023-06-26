@@ -33,6 +33,15 @@
 <p>For my inspiration I looked at Mediclinic and the way they display information about doctors and how they are displayed. Click <a href="https://www.mediclinic.co.za/en/corporate/find-a-doctor.html">here</a> to view.</p>
 <h3>Wireframes</h3>
 <img src="images/wireframes/Wireframe - Register.png" width="50%">
+<img src="images/wireframes/Wireframe - Register-1.png" width="50%">
+<img src="images/wireframes/Wireframe - Register.png" width="50%">
+<img src="images/wireframes/Wireframe - Register-1.png" width="50%">
+<img src="images/wireframes/Wireframe - Register.png" width="50%">
+<img src="images/wireframes/Wireframe - Register-1.png" width="50%">
+<img src="images/wireframes/Wireframe - Register.png" width="50%">
+<img src="images/wireframes/Wireframe - Register2.png" width="50%">
+<img src="images/wireframes/Wireframe - Register1.png" width="50%">
+<img src="images/wireframes/Wireframe - Register3.png" width="50%">
 
 ## Development Process
 ### Implementation Process
