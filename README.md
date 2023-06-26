@@ -16,7 +16,6 @@
 <p>
  In order to have access to the database one requires XAMPP to be installed on your device.
 </p>
-### How To Install
 <p>
  To download XAMPP you can simply click the link <a href="https://www.apachefriends.org/">here</a>
 </p>
