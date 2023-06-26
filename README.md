@@ -34,14 +34,14 @@
 <h3>Wireframes</h3>
 <img src="images/wireframes/Wireframe - Register.png" width="50%">
 <img src="images/wireframes/Wireframe - Register-1.png" width="50%">
-<img src="images/wireframes/Wireframe - Register.png" width="50%">
-<img src="images/wireframes/Wireframe - Register-1.png" width="50%">
-<img src="images/wireframes/Wireframe - Register.png" width="50%">
-<img src="images/wireframes/Wireframe - Register-1.png" width="50%">
-<img src="images/wireframes/Wireframe - Register.png" width="50%">
-<img src="images/wireframes/Wireframe - Register2.png" width="50%">
-<img src="images/wireframes/Wireframe - Register1.png" width="50%">
-<img src="images/wireframes/Wireframe - Register3.png" width="50%">
+<img src="images/wireframes/Wireframe - Login.png" width="50%">
+<img src="images/wireframes/Wireframe - Login-1.png" width="50%">
+<img src="images/wireframes/Wireframe - Doctor-1.png" width="50%">
+<img src="images/wireframes/Wireframe - Doctor-3.png" width="50%">
+<img src="images/wireframes/Wireframe - Patient.png" width="50%">
+<img src="images/wireframes/Wireframe - Patient-1.png" width="50%">
+<img src="images/wireframes/Wireframe - Doctor.png" width="50%">
+<img src="images/wireframes/Wireframe - Doctor-2.png" width="50%">
 
 ## Development Process
 ### Implementation Process
