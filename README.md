@@ -75,9 +75,11 @@ Now that the CRUD functionality works I worked on the appointment page to displa
 <img src="images/mockups/Mockup_3.png">
 
 ## Walkthrough
-https://drive.google.com/file/d/1XKKRfIpnKq1JE6oaX41Hi-ZQBklt2A5m/view?usp=sharing
-### Video Demonstration
-<p>You can view te demonstration video <a href="https://drive.google.com/file/d/1lEulpf_K2HweDqd7slhcVOExBGD-GI_S/view?usp=sharing">here</a></p>
+<video src="video/Term2_Walkthrough.mp4">
+<p>You can view the walkthough video <a href="https://drive.google.com/file/d/1XKKRfIpnKq1JE6oaX41Hi-ZQBklt2A5m/view?usp=sharing">here</a></p>
+
+## Video Demonstration
+<p>You can view the demonstration video <a href="https://drive.google.com/file/d/1lEulpf_K2HweDqd7slhcVOExBGD-GI_S/view?usp=sharing">here</a></p>
 
 ## Conclution
 <p>In this project I have learned a lot wat you can accomplish with the use of PHP and My SQL and how it can make the work load a lot less even though we had to think a bit more on ways to solve our errors.</p>
