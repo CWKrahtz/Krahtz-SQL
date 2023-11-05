@@ -75,7 +75,9 @@ Now that the CRUD functionality works I worked on the appointment page to displa
 <img src="images/mockups/Mockup_3.png">
 
 ## Walkthrough
-<video src="video/Term2_Walkthrough.mp4">
+<video>
+ <source src="video/Term2_Walkthrough.mp4" type="video/mp4">
+</video>
 <p>You can view the walkthough video <a href="https://drive.google.com/file/d/1XKKRfIpnKq1JE6oaX41Hi-ZQBklt2A5m/view?usp=sharing">here</a></p>
 
 ## Video Demonstration
