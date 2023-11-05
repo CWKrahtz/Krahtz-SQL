@@ -74,6 +74,8 @@ Now that the CRUD functionality works I worked on the appointment page to displa
 <img src="images/mockups/Mockup_2.png">
 <img src="images/mockups/Mockup_3.png">
 
+## Walkthrough
+https://github.com/CWKrahtz/Krahtz-SQL/blob/main/video/Term2_Walkthrough.mp4
 ### Video Demonstration
 <p>You can view te demonstration video <a href="https://drive.google.com/file/d/1lEulpf_K2HweDqd7slhcVOExBGD-GI_S/view?usp=sharing">here</a></p>
 
