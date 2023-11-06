@@ -134,16 +134,27 @@ When a receptionist is done she/he can click on the Logout button and will be re
 For my inspiration, I looked at Mediclinic and the way they display information about doctors and how they are displayed. Click <a href="https://www.mediclinic.co.za/en/corporate/find-a-doctor.html">here</a> to view.
 
 ## Wireframes
+
+### Register
 <img src="images/wireframes/Wireframe - Register.png">
-<img src="images/wireframes/Wireframe - Register-1.png">
+<br />
+Dark theme, view <a href="images/wireframes/Wireframe - Register-1.png">here</a>
+
+### Login
 <img src="images/wireframes/Wireframe - Login.png">
-<img src="images/wireframes/Wireframe - Login-1.png">
+<br />
+Dark theme, view <a href="images/wireframes/Wireframe - Login-1.png">here</a>
+
+### Doctors
 <img src="images/wireframes/Wireframe - Doctors-1.png">
-<img src="images/wireframes/Wireframe - Doctors-3.png">
+<br />
+Dark theme, view <a href="images/wireframes/Wireframe - Doctors-3.png">here</a>
+
+### Patients
 <img src="images/wireframes/Wireframe - Patient.png">
-<img src="images/wireframes/Wireframe - Patient-1.png">
-<img src="images/wireframes/Wireframe - Doctors.png">
-<img src="images/wireframes/Wireframe - Doctors-2.png">
+<br />
+Dark theme, view <a href="images/wireframes/Wireframe - Patient-1.png.png">here</a>
+
 
 # Development Process
 
