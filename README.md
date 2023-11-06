@@ -25,7 +25,8 @@
     - [Mockups](#mockups)
     - [Walkthrough](#walkthrough)
     - [Video Demonstration](#video-demonstration)
-- [Conclusion](#conclusion)
+- [Conlusion](#conlusion)
+- [Acknowledgements](#acknowledgements)
 
 # Getting Started with Create React App
 
@@ -184,3 +185,11 @@ You can view the demonstration video <a href="https://drive.google.com/file/d/1l
 
 # Conclusion
 In this project, I have learned a lot about what you can accomplish with the use of PHP and MySQL and how it can make the workload a lot less even though we had to think a bit more about ways to solve our errors.
+
+# Acknowledgements
+
+- [W3Schools](https://www.w3schools.com/)
+- [React Bootstrap](https://react-bootstrap.netlify.app/docs/getting-started/introduction/)
+- [Stack Overflow](https://stackoverflow.com/)
+- [Figma](https://www.figma.com/)
+- [ChatGPT](https://chat.openai.com/)
