@@ -25,7 +25,7 @@
     - [Mockups](#mockups)
     - [Walkthrough](#walkthrough)
     - [Video Demonstration](#video-demonstration)
-- [Conlusion](#conlusion)
+- [Conclusion](#conclusion)
 - [Acknowledgements](#acknowledgements)
 
 # Getting Started with Create React App
