@@ -25,7 +25,7 @@
     - [Mockups](#mockups)
     - [Walkthrough](#walkthrough)
     - [Video Demonstration](#video-demonstration)
-- [Conclution](#conclution)
+- [Conclusion](#conclusion)
 
 # Getting Started with Create React App
 
@@ -182,5 +182,5 @@ You can view the walkthough video <a href="https://drive.google.com/file/d/1XKKR
 ## Video Demonstration
 You can view the demonstration video <a href="https://drive.google.com/file/d/1lEulpf_K2HweDqd7slhcVOExBGD-GI_S/view?usp=sharing">here</a>
 
-# Conclution
+# Conclusion
 In this project, I have learned a lot about what you can accomplish with the use of PHP and MySQL and how it can make the workload a lot less even though we had to think a bit more about ways to solve our errors.
